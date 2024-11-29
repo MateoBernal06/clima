@@ -1,3 +1,4 @@
+
 const buscarCiudad = document.getElementById("buscar-city");
 
 const lugarError = document.getElementById("error");
