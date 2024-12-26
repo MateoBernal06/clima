@@ -122,3 +122,67 @@ body{
 .copyright{
     text-align: center;
 }
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    
+    .logos-university {
+        margin-left: 100px;
+        margin-right: 100px;
+        justify-content: space-between;
+    }
+
+    .place-dates{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        align-items: center;
+        width: 500px;
+        height: auto;
+    }
+
+    .place-busqueda{
+        margin-top: 50px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .logos-university {
+        margin-left: 20px;
+        margin-right: 20px;
+        justify-content: space-between;
+    }
+
+    .place-dates{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-items: center;
+        width: auto;
+        height: auto;
+    }
+
+    .form-control{
+        width: 250px;
+    }
+
+    .barra{
+        display: grid;
+        gap: 8px;
+        justify-items: center;
+    }
+
+    .temperature, .humedad, .viento, .pressure{
+        width: 250px;
+        height: 140px;
+    }
+
+    .imagen-clima{
+        width: 250px;
+    }
+    
+    .place-busqueda{
+        margin-top: 50px;
+    }
+}
